@@ -45,6 +45,12 @@ button:hover {
   background-color: antiquewhite;
 }
 
+.profile-btn-container button {
+  height: 100%;
+  outline: none;
+  border: none;
+}
+
 .container {
   width: 100%;
   min-height: 100vh;

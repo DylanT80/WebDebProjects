@@ -88,8 +88,9 @@ function start() {
 
 start();
 // clear();
-function clear() {
+function clearData() {
   localStorage.clear();
+  location.reload();
 }
 /* Clear all tasks */
 function clearAll() {
