@@ -13,7 +13,6 @@ body {
 }
 
 .profile-container li {
-  display: inline;
   margin: 0px 10px;
 }
 
@@ -33,6 +32,13 @@ body {
   background-color: #ff5945;
 }
 
+#profile-list {
+  display: flex;
+  list-style: none;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
 #add-profile {
   padding: 5px 10px;
   border: none;
@@ -43,6 +49,10 @@ body {
 button:hover {
   cursor: pointer;
   background-color: antiquewhite;
+}
+
+.profile-btn-container {
+  max-height: 67.5px;
 }
 
 .profile-btn-container button {
