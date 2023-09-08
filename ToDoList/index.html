@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="profile-container">
+        <ul id="profile-list">
+          <li>
+            <button class="selected" onclick="selectProfile(event)">
+              Profile 1
+            </button>
+          </li>
+        </ul>
+        <button id="add-profile" onclick="addProfile()">Add Profile</button>
+      </div>
+      <div class="todo-app">
+        <div class="header">
+          <h2>To-Do List <img src="./images/icon.png" alt="Icon" /></h2>
+          <button id="clear" onclick="clearAll()">Clear All</button>
+        </div>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="What to do..." />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
